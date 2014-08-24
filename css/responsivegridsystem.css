@@ -409,6 +409,7 @@ background-color : #ccc; }
 	nav {
 		background:none repeat scroll 0 0 rgba(204, 204, 204, 0.85);
 		padding:1.2em;	
+		text-align:right;
 	}
 	
 	nav ul {
@@ -418,6 +419,7 @@ background-color : #ccc; }
 	
 	nav ul li {
 		display:inline-block;
+		padding-right:1em;
 	}
 
 	.sticky {  
