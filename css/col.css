@@ -3,7 +3,7 @@
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1.6%;
+	/*margin: 1% 0 1% 1.6%;*/
 }
 
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
@@ -14,5 +14,9 @@
 @media only screen and (max-width: 480px) {
 	.col { 
 		margin: 1% 0 1% 0%;
+	}
+	.services {
+		border-right:0px;
+		border-bottom:1px dashed #BFBFBF;
 	}
 }
