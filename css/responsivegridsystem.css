@@ -12,7 +12,7 @@ text-align: center;
 }
 
 div {
-	font-size:16px;
+	font-size:14px;
 }
 
 button, 
@@ -396,10 +396,10 @@ background-color : #ccc; }
 	#headcontainer {
 		width: 100%;
 		padding: 6em 0 6em 0;
-		background-image:  url(../img/clouds-bg3.jpg);
+/*		background-image:  url(../img/clouds-bg3.jpg);
 		background-position: top;
 		background-repeat: no-repeat;
-		background-color: #4b71a2;
+		background-color: #4b71a2;*/
 	}
 
 		header {
@@ -430,14 +430,6 @@ background-color : #ccc; }
 		padding-right:1em;
 	}
 
-	.sticky {  
-	    position: fixed;  
-	    width: 100%;  
-	    left: 0;  
-	    top: 0;  
-	    z-index: 100;  
-	    border-top: 0;  
-	} 
 		
 	.intro {
 		text-align: left;
@@ -917,6 +909,8 @@ p {
 
 #filters li span {
     border-radius: 4px;
+   	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
     cursor: pointer;
     display: inline-block;
     margin-right: 0.5em;
@@ -936,12 +930,18 @@ p {
     color: #67C6DA;
 }*/
 #portfoliolist .portfolio {
-    background: none repeat scroll 0 0 #FFFFFF;
+    background: none repeat scroll 0 0 #f9f9f9;
     box-sizing: border-box;
     display: none;
     float: left;
     overflow: hidden;
-    width: 33.3333%;
+    width: 250px;
+    margin-right:10px;
+    margin-bottom:10px;
+    box-shadow: 0 0 0 1px #eee;
+    border-radius: 4px;
+   	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
 }
 .portfolio-wrapper {
     cursor: pointer;

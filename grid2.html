@@ -48,6 +48,7 @@
 	<link rel="stylesheet" href="css/11cols.css" media="all">
 	<link rel="stylesheet" href="css/12cols.css" media="all"> -->
 
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 	<script src="js/modernizr-2.5.3-min.js"></script>
 
 
@@ -55,179 +56,228 @@
 
 <body>
 
+<ul id="menu">
+	<li data-menuanchor="first" class="active"><a href="#first">Home</a></li>
+	<li data-menuanchor="second"><a href="#second">My Services</a></li>
+	<li data-menuanchor="third"><a href="#third">Previous Work</a></li>
+	<li data-menuanchor="fourth"><a href="#fourth">About Me</a></li>
+
+			<li><a href="">Hire Me</a></li>	
+</ul>
+
+
 <div id="skiptomain"><a href="#maincontent">skip to main content</a></div>
 
-<div id="wrapper">
-
-	<nav id="menu">
-		<ul>
-			<li><a href="">My Services</a></li>
-			<li><a href="">Previous Work</a></li>
-			<li><a href="">About Me</a></li>
-			<li><a href="">Hire Me</a></li>
-		</ul>
-	</nav>
-
-	<div id="headcontainer">
-		<header>
-
-
-			<div class="section group">
-				<div class="col span_1_of_5">
-				Image
-				</div>
-				<div class="col span_3_of_5 intro">
-					<h1>Hello, I'm Daryl Feehely</h1>
-					<p class="introtext">
-						I am a web & mobile consultant, project manager and contract developer. <br />
-						I help organisations deliver technical projects from inception to completion. <br />
-					</p>
-				</div>
-				<div class="col span_1_of_5">
-				Hire Me
-				</div>
-			</div>
-
-
-
-		</header>
-	</div>
-	<div class="maincontentcontainer region dark">
-		<div class="maincontent">
-
-			<div class="section group example">
-			<h3>My Services</h3>
-			</div>
-
-			<div class="section group">
-				<div class="col span_1_of_3 services">
-					<h4>Strategy</h4>
-					
-					Problem clarification<br>
-					Options investigation<br>
-					Requirements gathering<br>		
-
-				</div>
-				<div class="col span_1_of_3 services">
-					<h4>Planning</h4>
-
-					Specifications definition<br>
-					UX wireframe creation <br>
-					Project plan creation<br>
+<div id="fullpage">
+	<div class="section " id="section0">
 		
-				</div>
-				<div class="col span_1_of_3 services-last">
-					<h4>Delivery</h4>
 
-					Responsive web design<br>
-					Full stack development<br>
-					Testing, deployment & maintenance<br>
-			
-				
+		<div id="headcontainer">
+			<header>
+
+
+				<div class="section group">
+					<div class="col span_1_of_5">
+					Image
+					</div>
+					<div class="col span_3_of_5 intro">
+						<h1>Hello, I'm Daryl Feehely</h1>
+						<p class="introtext">
+							I am a web & mobile consultant, project manager and contract developer. <br />
+							I help organisations deliver technical projects from inception to completion. <br />
+						</p>
+					</div>
+					<div class="col span_1_of_5">
+					Hire Me
+					</div>
 				</div>
-				<div class="clear"></div>
-			</div>
-			
-			</div>
+
+
+
+			</header>
+		</div>
+
+
 	</div>
+	<div class="section" id="section1">
+		<div class="intro">
+				
+			<div class="maincontent">
 
+				<div class="section group example spacing">
+				<h3>My Services</h3>
+				</div>
 
-	<div class="maincontentcontainer region">
-		<div class="maincontent">
+				<div class="section group">
+					<div class="col span_1_of_3 services">
+						<h4>Strategy</h4>
+						
+						Problem clarification<br>
+						Options investigation<br>
+						Requirements gathering<br>		
 
+					</div>
+					<div class="col span_1_of_3 services">
+						<h4>Planning</h4>
 
-			<div class="section group">
-			<h3>Past Work & Experience</h3>
+						Specifications definition<br>
+						UX wireframe creation <br>
+						Project plan creation<br>
+			
+					</div>
+					<div class="col span_1_of_3 services-last">
+						<h4>Delivery</h4>
+
+						Responsive web design<br>
+						Full stack development<br>
+						Testing, deployment & maintenance<br>
+				
+					
+					</div>
+					<div class="clear"></div>
+				</div>
+				
 			</div>
 
-			<div class="section group">
 
-				<div class="col span_1_of_4">
-					<ul id="filters" class="clearfix">
-						<li><span class="filter active" data-filter="pm reqs lead html php strat ux dru git ps trends res plan sl asp mysql mssql wcag and ws">All</span></li>
-						<li><span class="filter" data-filter="pm">Proj Mgmt</span></li>
-						<li><span class="filter" data-filter="reqs">Requirements</span></li>
-						<li><span class="filter" data-filter="lead">Team Lead</span></li>
-						<li><span class="filter" data-filter="html">HTML5/CSS3/JS</span></li>
-						<li><span class="filter" data-filter="php">PHP</span></li>
-						<li><span class="filter" data-filter="strat">Strategy</span></li>
-						<li><span class="filter" data-filter="ux">UX</span></li>
-						<li><span class="filter" data-filter="dru">DRUPAL</span></li>
-						<li><span class="filter" data-filter="git">SVN/GIT</span></li>
-						<li><span class="filter" data-filter="ps">Photoshop</span></li>
-						<li><span class="filter" data-filter="trends">Trends</span></li>
-						<li><span class="filter" data-filter="res">Research</span></li>
-						<li><span class="filter" data-filter="plan">Planning</span></li>
-						<li><span class="filter" data-filter="sl">Stakeholder Liaison</span></li>
-						<li><span class="filter" data-filter="asp">ASP.Net/C#</span></li>
-						<li><span class="filter" data-filter="mysql">MySQL/MSSQL</span></li>
-						<li><span class="filter" data-filter="mssql">MSSQL</span></li>
-						<li><span class="filter" data-filter="wcag">WCAG 2.0</span></li>
-						<li><span class="filter" data-filter="and">Android</span></li>
-						<li><span class="filter" data-filter="ws">Webservices</span></li>
-					</ul>
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			
+
+			<div class="maincontent">
+
+
+				<div class="section group spacing">
+				<h3>Past Work & Experience</h3>
 				</div>
-				<div class="col span_3_of_4">
 
 
-					<div id="portfoliolist">
-					<div class="portfolio pm reqs lead html php strat ux dru git ps trends plan sl mysql wcag ws mix_all" data-cat="pm reqs lead html php strat ux dru git ps trends plan sl mysql wcag ws" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
-						     <img class="p-img" src="images/p1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
-						  	</div></a>
-		                </div>
-		                <div class="port-info">
-		                	<h4><a href="#">DCU Website</a></h4>
-		                	<span>www.dcu.ie</span>
-		                </div>
-					</div>				
-					<div class="portfolio pm reqs lead html strat ux git ps trends plan sl asp mssql ws mix_all" data-cat="pm reqs lead html strat ux git ps trends plan sl asp mssql ws" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
-						     <img class="p-img" src="images/p2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
-						  	</div></a>
-		                </div>
-		                 <div class="port-info">
-		                	<h4><a href="#">Springboard & BlueBrick.ie</a></h4>
-		                	<span></span>
-		                </div>
-					</div>		
+				<div class="section group">
+
+					<div class="col span_1_of_4">
+						<ul id="filters" class="clearfix">
+							<li><span class="filter active" data-filter="pm reqs mobile lead html php strat ux dru svn git ps trends res plan sl asp mysql mssql wcag and ws">All</span></li>
+							<li><span class="filter" data-filter="strat">Strategy</span></li>
+							<li><span class="filter" data-filter="res">Research</span></li>
+							<li><span class="filter" data-filter="trends">Trends</span></li>
+							<li><span class="filter" data-filter="plan">Planning</span></li>
+							<li><span class="filter" data-filter="php">PHP</span></li>	
+							<li><span class="filter" data-filter="pm">Project Management</span></li>
+							<li><span class="filter" data-filter="reqs">Requirements</span></li>
+							<li><span class="filter" data-filter="mobile">Mobile</span></li>
+							<li><span class="filter" data-filter="lead">Team Lead</span></li>
+							<li><span class="filter" data-filter="ux">UX</span></li>
+							<li><span class="filter" data-filter="git">GIT</span></li>
+							<li><span class="filter" data-filter="sl">Stakeholder Liaison</span></li>
+							<li><span class="filter" data-filter="mysql">MySQL</span></li>
+							
+							<li><span class="filter" data-filter="html">HTML5 / CSS3 / JS</span></li>
+											
+							<li><span class="filter" data-filter="asp">ASP.Net / C#</span></li>
+							<li><span class="filter" data-filter="ws">Webservices</span></li>						
+							<li><span class="filter" data-filter="dru">DRUPAL</span></li>
+							<li><span class="filter" data-filter="svn">SVN</span></li>
+							
+							
+							<li><span class="filter" data-filter="and">Android</span></li>
+							<li><span class="filter" data-filter="mssql">MSSQL</span></li>
+							<li><span class="filter" data-filter="ps">Photoshop</span></li>
+							<li><span class="filter" data-filter="wcag">WCAG 2.0</span></li>
+
+						</ul>
+					</div>
+					<div class="col span_3_of_4">
 
 
-					<div class="clearfix"> </div>
+						<div id="portfoliolist">
+						<div class="portfolio pm reqs lead html php strat ux dru svn ps trends plan sl mysql wcag ws mix_all" data-cat="pm reqs lead html php strat ux dru git ps trends plan sl mysql wcag ws" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+							     <img class="p-img" src="images/p1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+							  	</div></a>
+			                </div>
+			                <div class="port-info">
+			                	<h4><a href="#">DCU Website</a></h4>
+			                	<span>www.dcu.ie</span>
+			                </div>
+						</div>				
+						<div class="portfolio pm reqs lead html strat ux svn ps trends plan sl asp mssql ws mix_all" data-cat="pm reqs lead html strat ux git ps trends plan sl asp mssql ws" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper">		
+								<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+							     <img class="p-img" src="images/p2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+							  	</div></a>
+			                </div>
+			                 <div class="port-info">
+			                	<h4><a href="#">Springboard & BlueBrick.ie</a></h4>
+			                	<span></span>
+			                </div>
+						</div>		
 
 
+						<div class="clearfix"> </div>
+
+
+					</div>
 				</div>
+
+
 			</div>
 
 
 		</div>
 	</div>
 
-	<div id="footercontainer">
-		<footer class="group">
-			<div class="col span_1_of_4">
-			<h4>About </h4>
-			<p>123 </p>
-			</div>
+	<div class="section" id="section3">
+		<div class="intro">
+
+			<footer class="group">
+				<div class="col span_1_of_4">
+				<h4>About </h4>
+				<p>123 </p>
+				</div>
 
 
-   			<br class="breaker" />
+	   			<br class="breaker" />
 
-			<div id="smallprint">
-			&copy; Daryl Feehely
-			</div>
+				<div id="smallprint">
+				&copy; Daryl Feehely
+				</div>
 
-		</footer>
+			</footer>
+
+		</div>
 	</div>
+
 </div>
+
+
+
+
+<!-- 
+<div id="wrapper">
+
+
+	<div class="maincontentcontainer region dark">
+
+	</div>
+
+
+	<div class="maincontentcontainer region">
+
+	</div>
+
+	<div id="footercontainer">
+
+	</div>
+</div> -->
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
 <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
 <!--[if (lt IE 9) & (!IEMobile)]>
 <script src="js/selectivizr-min.js"></script>
 <![endif]-->
