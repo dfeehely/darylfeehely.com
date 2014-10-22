@@ -407,7 +407,41 @@ ul#filters {
     border-radius: 4px;
    	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
+
+
+    perspective: 400;
+    -webkit-perspective: 500;
+    -moz-perspective: 500;
+    -ms-perspective: 500;
+    -o-perspective: 500;
+    transform-style:preserve-3d;
+    -webkit-transform-style:preserve-3d;
+    -moz-transform-style:preserve-3d;
+    -o-transform-style:preserve-3d;
+    cursor:pointer;
+    /* Animate the transitions */
+    -webkit-transition:0.8s; text-align:center;
+    -moz-transition:0.8s; text-align:center;
+    -ms-transition:0.8s; text-align:center;
+    -o-transition:0.8s; text-align:center;
+    transition:0.8s; text-align:center;
+
 }
+
+.flip {
+/*  transform:rotateY(180deg) scale(2,2);
+  -webkit-transform:rotateY(180deg) scale(2,2);
+  -moz-transform:rotateY(180deg) scale(2,2);
+  -o-transform:rotateY(180deg) scale(2,2);
+  -ms-transform:rotateY(180deg) scale(2,2);  */
+    transform: scale(2,2);
+  -webkit-transform: scale(2,2);
+  -moz-transform: scale(2,2);
+  -o-transform: scale(2,2);
+  -ms-transform: scale(2,2);  
+  z-index: 10;
+}
+
 @media only screen and (max-width: 320px) {
 
 	#portfoliolist .portfolio {

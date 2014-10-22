@@ -37,7 +37,35 @@ $(document).ready(function() {
         }, 1000);
 
     });
+
 }); 
+
+// $(document).click(function(event){
+
+// 	$( "#portfoliolist .portfolio" ).each(function( index ) {
+// 		if($(this).attr('class').contains("flip")) {
+// 		  //console.log( index + ": " + $( this ).text() );
+// 		  //$(this).toggleClass("flip"); 
+// 		  alert(1);
+// 		}
+// 	});
+  
+// });
+
+
+$("#portfoliolist .portfolio").click(
+	function() {
+	    // if($(this).attr('class').contains("flip")) {
+	    // 	$(this).toggleClass("flip"); 
+	    // } else {
+	    // 	$(this).toggleClass("flip"); 
+	    // }
+	    // alert(2);
+	    $(this).toggleClass("flip"); 
+	}
+);
+
+
 
 $(function () {
 	var filterList = {
