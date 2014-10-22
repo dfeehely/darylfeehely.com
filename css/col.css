@@ -11,12 +11,18 @@
 
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+
+/*@media only screen and (max-width: 480px) {*/
+@media only screen and (max-width: 580px) {
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
 	.services {
 		border-right:0px;
 		border-bottom:1px dashed #BFBFBF;
+		padding:1em 0em 2em 0em;
+	}
+	.services-last {
+		padding:1em 0em 0em 0em;
 	}
 }

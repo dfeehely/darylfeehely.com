@@ -26,9 +26,18 @@ months[11] = "December";
 // end script hiding -->
 
 
-$(document).ready(function() {  
+$(document).ready(function() {
 
-});  
+    $(".jumper").on("click", function( e ) {
+
+        e.preventDefault();
+
+        $("body, html").animate({ 
+            scrollTop: ($( $(this).attr('href') ).offset().top) -40
+        }, 1000);
+
+    });
+}); 
 
 $(function () {
 	var filterList = {
@@ -65,3 +74,4 @@ $(function () {
 	// Run the show!
 	filterList.init();
 });	
+
