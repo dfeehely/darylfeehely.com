@@ -1,7 +1,7 @@
 
 nav {
 	background:none repeat scroll 0 0 rgba(256, 256, 256, 1);
-	border-bottom:1px solid #EEE;
+	border-bottom:1px solid #FF8605;
 	position:fixed;
 	padding:1.2em 0em 1.2em 0em;	
 	text-align:center;
@@ -28,7 +28,7 @@ nav {
 		float:left;
 		margin-left:1.2em;
 		font-weight:bold;
-		color:#1777AF;
+		color:#FF8605;
 	}
 
 @media only screen and (max-width: 620px) {
@@ -56,6 +56,10 @@ nav {
 	}
 }
 		
+h4, h3, a {
+	color:#FF8605;
+}
+
 .intro {
 	text-align: center;
 }
@@ -105,11 +109,12 @@ nav {
 #headcontainer {
 	width: 100%;
 	padding: 8em 0 7em 0;
-	background-image:  url(../img/header2.jpg);
+	background-image:  url(../img/header-railing.png);
 	background-position: top;
 	background-repeat: no-repeat;
-	background-color: #02449C;
+	background-color: #FF941A;
 	background-size: 100%;
+	border-bottom:1px solid #FF8605;
 }
 @media only screen and (max-width: 480px) {
 	#headcontainer {
@@ -366,7 +371,7 @@ ul#filters {
     padding: 10px 15px;
     text-decoration: none;
     text-transform: uppercase;
-    background-color:#1777AF;
+    background-color:#FF8605;
     color:#FFF;
 }
 
@@ -466,6 +471,10 @@ footer {
 
 footer h4 { 
 	color: #FFF;
+}
+
+#footercontainer {
+	background-color:#FF8605;
 }
 
 #smallprint {
