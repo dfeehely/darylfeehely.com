@@ -1,7 +1,12 @@
 
+/*
+#EE13FF, #B63BE8, #1A53BC. #071E84, #171B38
+*/
+
+
 nav {
 	background:none repeat scroll 0 0 rgba(256, 256, 256, 1);
-	border-bottom:1px solid #FF8605;
+	border-bottom:1px solid #B31533;
 	position:fixed;
 	padding:1.2em 0em 1.2em 0em;	
 	text-align:center;
@@ -57,7 +62,10 @@ nav {
 }
 		
 h4, h3, a {
-	color:#FF8605;
+	color:#516BA4;
+}
+a:hover {
+	color:#B31533;
 }
 
 .intro {
@@ -109,12 +117,12 @@ h4, h3, a {
 #headcontainer {
 	width: 100%;
 	padding: 8em 0 7em 0;
-	background-image:  url(../img/header-railing.png);
+	background-image:  url(../img/header-roof2.png);
 	background-position: top;
 	background-repeat: no-repeat;
 	background-color: #FF941A;
 	background-size: 100%;
-	border-bottom:1px solid #FF8605;
+	border-bottom:1px solid #B31533;
 }
 @media only screen and (max-width: 480px) {
 	#headcontainer {
@@ -371,12 +379,12 @@ ul#filters {
     padding: 10px 15px;
     text-decoration: none;
     text-transform: uppercase;
-    background-color:#FF8605;
+    background-color:#516BA4;
     color:#FFF;
 }
 
 #filters li span:hover {
-	background-color: #888;	
+	background-color: #B31533;	
 	color:#FFF;
 }
 
@@ -508,7 +516,7 @@ footer h4 {
 }
 
 #footercontainer {
-	background-color:#FF8605;
+	background-color:#516BA4;
 }
 
 #smallprint {
