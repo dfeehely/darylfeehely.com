@@ -120,13 +120,14 @@ a:hover {
 	background-image:  url(../img/header-roof2.png);
 	background-position: top;
 	background-repeat: no-repeat;
-	background-color: #FF941A;
+	background-color: #171B38;
 	background-size: 100%;
 	border-bottom:1px solid #B31533;
 }
 @media only screen and (max-width: 480px) {
 	#headcontainer {
 		padding: 3em 0 3em 0;
+		background-image:  url(../img/header-roof-mobile.png);
 	}
 }
 
@@ -236,7 +237,7 @@ h3.section-heading {
 	text-align: center;
 	line-height:2em;
 	font-size:1.1em;
-	padding-left:10px;
+	padding-left:8px;
 }
 .services-last {
 	height:150px;
@@ -261,7 +262,7 @@ h3.section-heading {
 	height:30px;
 	min-height:30px;
 	text-align: center;
-	padding-left:10px;
+	padding-left:8px;
 }
 .hire-last {
 	height:30px;

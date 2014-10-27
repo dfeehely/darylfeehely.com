@@ -61,7 +61,7 @@ $("#portfoliolist .portfolio").click(
 	    // 	$(this).toggleClass("flip"); 
 	    // }
 	    // alert(2);
-	    $(this).toggleClass("flip"); 
+	    //$(this).toggleClass("flip"); 
 	}
 );
 
